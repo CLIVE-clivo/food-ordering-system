@@ -156,3 +156,4 @@ Trainer Collaborator: vhutuzahcharles@gmail.com
 ## Database Configuration Complete
 ## Package Structure Complete
 ## Research Questions Complete
+## Assignment Complete
