@@ -1,5 +1,5 @@
 package com.jumpstart.food_ordering_system.dto;
-
+// DTO for transferring category data
 // A DTO (Data Transfer Object) is used to carry data between layers.
 // Instead of sending the full entity to the client, we send a DTO.
 // This keeps our database structure hidden from the outside world.
