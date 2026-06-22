@@ -5,7 +5,7 @@ import com.jumpstart.food_ordering_system.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
-
+// Category REST Controller - handles HTTP requests for categories
 // The controller is the entry point of the application.
 // It receives HTTP requests from the client and returns responses.
 // This controller handles all requests that start with /api/category
@@ -24,3 +24,5 @@ public class CategoryController {
         return categoryService.getAllCategories();
     }
 }
+
+
