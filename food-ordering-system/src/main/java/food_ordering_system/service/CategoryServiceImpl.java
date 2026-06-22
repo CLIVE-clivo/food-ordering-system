@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
-
+// Service implementation for category business logic
 // The service layer contains the business logic of the application.
 // It gets data from the repository and converts it into DTOs
 // before sending it to the controller.
