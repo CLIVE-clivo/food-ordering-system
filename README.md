@@ -157,3 +157,12 @@ Trainer Collaborator: vhutuzahcharles@gmail.com
 ## Package Structure Complete
 ## Research Questions Complete
 ## Assignment Complete
+## Endpoints
+
+| Method | URL                       | Body         |
+|--------|---------------------------|--------------|
+| POST   | /api/categories           | { "name" }   |
+| GET    | /api/categories           | -            |
+| GET    | /api/categories/{id}      | -            |
+| PUT    | /api/categories/{id}      | { "name" }   |
+| DELETE | /api/categories/{id}      | -            |
