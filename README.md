@@ -157,3 +157,28 @@ Trainer Collaborator: vhutuzahcharles@gmail.com
 ## Package Structure Complete
 ## Research Questions Complete
 ## Assignment Complete
+## API Response Format
+
+Every endpoint returns a standard response wrapper:
+
+```json
+{
+  "statusCode": 200,
+  "message": "Category retrieved successfully",
+  "data": {
+    "id": 1,
+    "name": "Fast Food"
+  },
+  "timestamp": "2026-06-18T08:42:11"
+}
+```
+
+For errors the data field is omitted:
+
+```json
+{
+  "statusCode": 404,
+  "message": "Category not found with id: 99",
+  "timestamp": "2026-06-18T08:42:11"
+}
+```
