@@ -3,8 +3,11 @@ package com.jumpstart.food_ordering_system.service;
 import com.jumpstart.food_ordering_system.dto.CategoryDto;
 import java.util.List;
 
-// This interface defines what the service layer can do.
-// The actual logic is written in CategoryServiceImpl.
+// This interface defines all category operations available
 public interface CategoryService {
     List<CategoryDto> getAllCategories();
+    CategoryDto getCategoryById(Long id);
+    CategoryDto addCategory(CategoryDto dto);
+    CategoryDto updateCategory(Long id, CategoryDto dto);
+    void deleteCategory(Long id);
 }
